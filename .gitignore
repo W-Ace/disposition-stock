@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.eggs/
+*.whl
+
+# Node
+node_modules/
+web/dist/
+.DS_Store
+
+# Editor
+.vscode/
+.idea/
+
+# FinLab skill (installed by curl install.sh, not source-controlled)
+.agents/
+skills-lock.json
+
+# pytest
+.pytest_cache/
+
+# Local snapshots from manual runs
+/tmp/
+
+# Env
+.env
+.env.local
